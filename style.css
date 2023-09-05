@@ -1,114 +1,94 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    background-color:rgb(39, 36, 36);
+header {
+  background-color: rgb(39, 36, 36);
 }
 
-nav{
-    color: rgba(8, 7, 7, 0.554);
-    height: 150px;
-    margin: 0;
-    padding: 0;
+nav {
+  color: rgba(8, 7, 7, 0.554);
+  height: 150px;
+  margin: 0;
+  padding: 0;
 }
 
-.buscador{
-    color: orange;
+.buscador {
+  color: orange;
 }
 
-/*headr*/
-
-main{
-    background-color: orange;
-    margin: 0;
-    padding: 0;
-    border: 2px solid black;
-
+/*header*/
+main {
+  background-color: orange;
+  margin: 0;
+  padding: 0;
+  border: 2px solid black;
+}
+main h1 {
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+main h2 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+main h2 a {
+  background-color: black;
+  border-radius: 5px;
+  padding: 8px;
+  color: orange;
+}
+main h2 a a:hover {
+  color: orangered;
+  transform: scale(1.09);
 }
 
-main h1{
-    padding-top: 30px;
-    padding-bottom: 25px;
+.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+  text-align: center;
 }
 
-
-
-main h2{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    
+article {
+  border: 2px solid black;
+  background-color: black;
+  padding: 20px;
+}
+article a {
+  color: orange;
+}
+article a :hover {
+  color: orangered;
+  transform: scale(1.09);
+}
+article h3 {
+  color: orange;
 }
 
-main h2 a{
-    background-color: black;
-    border-radius: 5px;
-    padding: 8px;
-    color: orange;
+.nosotros {
+  text-align: center;
+  border: 5px solid;
+  padding: 15%;
+  font-size: 20px;
 }
-
-main h2 a:hover{
-    color: orangered;
-    transform: scale(1.09);
-
-}
-
-.container{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    align-items: center;
-    text-align: center;
-    }
-
-article{
-    border: 2px solid black;
-    background-color: black;
-    padding: 20px;
-
-}
-
-article a{
-    color: orange;
-}
-
-article a:hover{
-    color: orangered;
-}
-
-article h3{
-    color: orange;
-}
-
-.nosotros{
-    text-align: center;
-    border: 5px solid;
-    padding: 15%;
-    font-size: 20px;
-}
-
-
 
 /*main*/
-footer{
-    background-color: black;
-    padding-top: 0;
-    margin-top: 0;
+footer {
+  background-color: black;
+  padding-top: 0;
+  margin-top: 0;
+}
+footer h2 {
+  color: orange;
+}
+footer p {
+  color: orange;
+}
+footer i {
+  color: orange;
+  font-size: 30px;
 }
 
-footer h2{
-    color: orange
-}
-
-footer p{
-    color: orange;
-}
-
-footer p a{
-    color: orange;
-}
-
-footer i{
-    color: orange;
-    font-size: 30px;
-}
+/*# sourceMappingURL=style.css.map */
