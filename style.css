@@ -39,9 +39,9 @@ main h2 a {
   padding: 8px;
   color: orange;
 }
-main h2 a a:hover {
+
+h2 a:hover {
   color: orangered;
-  transform: scale(1.09);
 }
 
 .container {
@@ -56,15 +56,31 @@ article {
   background-color: black;
   padding: 20px;
 }
+article img {
+  transition: 0.5s;
+}
+article img:hover {
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+article .card:hover {
+  transform: rotateX(360deg);
+}
+
 article a {
   color: orange;
 }
-article a :hover {
+
+article a:hover {
   color: orangered;
-  transform: scale(1.09);
 }
-article h3 {
+
+h2 {
   color: orange;
+}
+
+.precios {
+  color: black;
 }
 
 .nosotros {

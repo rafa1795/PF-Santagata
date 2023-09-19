@@ -40,13 +40,12 @@ main{
             border-radius: 5px;
             padding: 8px;
             color: orange;
-
-            a:hover{
-                color: orangered;
-                transform: scale(1.09);
-            }
         }
     }
+}
+
+h2 a:hover{
+    color: orangered;
 }
 
 
@@ -62,23 +61,35 @@ article{
     background-color: black;
     padding: 20px;
 
-    a{
-        color: orange;
-
-        :hover{
-            color: orangered;
-            transform: scale(1.09);
-        }
+    img{
+        transition: 0.5s;
     }
 
-    h2{
-        color: orange;
+    img:hover{
+        transform: scale(1.07);
+        transition: 0.5s;
     }
 
-
+    .card:hover{
+        transform: rotateX(360deg);
+    }
 }
 
+article a {
+    color: orange;
+}
 
+article a:hover{
+    color: orangered;
+}
+
+h2{
+    color: orange;
+}
+
+.precios{
+    color: black;
+}
 
 .nosotros{
     text-align: center;
